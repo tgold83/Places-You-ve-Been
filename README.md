@@ -19,3 +19,9 @@ Code: Passport();
   let passport = new Passport();
   passport;
 Expected Output: Passport{destination {}. . .};
+
+Test: It should assign destinations{} to a value.a
+Code: Passport();
+      Passport.assignDestination(place1);
+      passport.destinations["Germany"];
+Expected Output: Destination {location: 'Germany', . . .}

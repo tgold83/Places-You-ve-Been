@@ -1,11 +1,15 @@
 // Business logic for Passport
 function Passport() {
-  this.destination = {};
+  this.destinations = {};
 }
+
+Passport.prototype.assignDestination = function(destination) {
+  this.destinations[destination.location] = destination;
+};
 
 
 // Business logic for Destination
-function Destination(locaction, landmark, date, notes, mood, weather) {
+function Destination(location, landmark, date, notes, mood, weather) {
   this.location = location;
   this.landmark = landmark;
   this.date = date;
