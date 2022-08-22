@@ -4,9 +4,10 @@ Describe: Destination()
 
 Test: It should input "information" into Destination.
 Code: Destination(locaction, . . .);
-Expected Output:
+Expected Output: undefined
 
-<!-- Test: It should output "information" from Destination.
+Test: It should output "information" from Destination.
 Code: Destination();
-      Destination.landmark[]
-Expected Output: -->
+      let place1 = new Destination(. . .);
+      place1.date
+Expected Output: "8-22-22"
