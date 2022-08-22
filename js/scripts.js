@@ -1,4 +1,10 @@
-// Buissness logic for Destination
+// Business logic for Passport
+function Passport() {
+  this.destination = {};
+}
+
+
+// Business logic for Destination
 function Destination(locaction, landmark, date, notes, mood, weather) {
   this.location = location;
   this.landmark = landmark;
